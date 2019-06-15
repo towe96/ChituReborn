@@ -1,0 +1,37 @@
+E2-STEP   PC7
+E2-DIR    PC6
+E2-EN     PG8
+
+E1-STEP   PB4
+E1-DIR    PB5
+E1-EN     PB8
+
+Z-STEP    PB9
+Z-DIR     PE0
+Z-EN      PE1
+
+Y-STEP    PE2
+Y-DIR     PE3
+Y-EN      PE4
+
+X-STEP    PE5
+X-DIR     PE6
+X-EN      PC13
+
+MOSFETS: VCC = VCC
+BED       PG11
+E0        PG12
+LED       PD7
+FAN1      PG13
+FAN2      PG14
+
+TEMP SENSOR: 470-470 Ohm
+BTEMP     PA0
+ETEMP     PA1
+
+ENDSTOPS: Standard layout
+XSTOP     PG10
+YSTOP     PA12
+ZSTOP     PA14
+Z+        PA13
+FILAMENT  PA15
